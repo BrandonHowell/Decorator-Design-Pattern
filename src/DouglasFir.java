@@ -20,13 +20,13 @@ Certification of Authenticity:
         database for the purpose of future plagiarism checking)
 */
 
-public abstract class Tree {
+public class DouglasFir extends Tree{
 
-    String name = "Unknown Name";
-
-    public String getDescription(){
-        return name;
+    public DouglasFir() {
+        name = "Douglas Fir";
     }
 
-    public abstract int cost();
+    public int cost() {
+        return 15;
+    }
 }

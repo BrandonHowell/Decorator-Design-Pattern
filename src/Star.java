@@ -20,13 +20,26 @@ Certification of Authenticity:
         database for the purpose of future plagiarism checking)
 */
 
-public abstract class Tree {
+public class Star extends TreeDecorator{
 
-    String name = "Unknown Name";
+    Tree tree;
 
-    public String getDescription(){
-        return name;
+    public Star(Tree tree) {
+        this.tree = tree;
     }
 
-    public abstract int cost();
+    public String getDescription() {
+        String search = "star";
+
+        if(tree.getDescription().toLowerCase().indexOf(search.toLowerCase()) != -1) {
+            System.out.println("Tree already has a star!");
+            return tree.getDescription();
+        }
+
+        return tree.getDescription() + ", Star";
+    }
+
+    public int cost() {
+        return 4 + tree.cost();
+    }
 }

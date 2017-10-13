@@ -20,13 +20,18 @@ Certification of Authenticity:
         database for the purpose of future plagiarism checking)
 */
 
-public abstract class Tree {
+public class LEDs extends TreeDecorator{
+    Tree tree;
 
-    String name = "Unknown Name";
-
-    public String getDescription(){
-        return name;
+    public LEDs(Tree tree) {
+        this.tree = tree;
     }
 
-    public abstract int cost();
+    public String getDescription() {
+        return tree.getDescription() + ", LEDs";
+    }
+
+    public int cost(){
+        return 10 + tree.cost();
+    }
 }

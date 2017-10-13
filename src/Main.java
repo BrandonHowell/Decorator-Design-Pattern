@@ -20,13 +20,27 @@ Certification of Authenticity:
         database for the purpose of future plagiarism checking)
 */
 
-public abstract class Tree {
+public class Main {
+    public static void main(String [] args){
+        Tree tree = new BlueSpruce();
+        System.out.println(tree.getDescription() + " $" + tree.cost());
 
-    String name = "Unknown Name";
+        Tree tree2 = new DouglasFir();
+        tree2 = new Star(tree2);
+        tree2 = new Ribbons(tree2);
+        tree2 = new Star(tree2);
+        tree2 = new Lights(tree2);
+        System.out.println(tree2.getDescription() + " $" + tree2.cost());
 
-    public String getDescription(){
-        return name;
+        Tree tree3 = new FraserFir();
+        tree3 = new Star(tree3);
+        tree3 = new Ruffles(tree3);
+        tree3 = new BallsBlue(tree3);
+        tree3 = new BallsRed(tree3);
+        tree3 = new BallsSilver(tree3);
+        tree3 = new Ribbons(tree3);
+        tree3 = new Lights(tree3);
+        tree3 = new LEDs(tree3);
+        System.out.println(tree3.getDescription() + " $" + tree3.cost());
     }
-
-    public abstract int cost();
 }

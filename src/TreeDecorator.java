@@ -20,13 +20,6 @@ Certification of Authenticity:
         database for the purpose of future plagiarism checking)
 */
 
-public abstract class Tree {
-
-    String name = "Unknown Name";
-
-    public String getDescription(){
-        return name;
-    }
-
-    public abstract int cost();
+public abstract class TreeDecorator extends Tree{
+    public abstract String getDescription();
 }
