@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b045870-161e-49c1-add1-d51d51d6ac00" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BallsBlue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BallsRed.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BallsSilver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BalsamFir.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BlueSpruce.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DouglasFir.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FraserFir.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LEDs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lights.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ribbons.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ruffles.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Star.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TreeDecorator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tree.java" afterPath="$PROJECT_DIR$/src/Tree.java" />
-    </list>
+    <list default="true" id="0b045870-161e-49c1-add1-d51d51d6ac00" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -159,8 +142,8 @@
       <file leaf-file-name="TreeDecorator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TreeDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            <state relative-caret-position="255">
+              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -632,8 +615,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TreeDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        <state relative-caret-position="255">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
